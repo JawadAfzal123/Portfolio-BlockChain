@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+   width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+
+}
+nav h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav main{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav main a{
+    margin: 1rem;
+    color: rgb(44,44,44);
+
+}
+nav main a:hover{
+    color:#5853ff;
+}
